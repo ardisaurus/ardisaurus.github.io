@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nugroho - Front-End Developer</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">Nugroho</a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list grid">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">
+                            <i class="fas fa-home nav-link-icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            <i class="fas fa-envelope nav-link-icon"></i> Contact
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">
+                            <i class="fas fa-file-alt nav-link-icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">
+                            <i class="fas fa-image nav-link-icon"></i> Portofolio
+                        </a>
+                    </li>
+                </ul>
+                <i class="fas fa-times nav-close" id="nav-close"></i>
+            </div>
+            <div class="nav-btns">
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="fas fa-qrcode"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+        <!-- HOME -->
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <div class="home-content grid">
+                    <div class="home-social">
+                        <a href="https://www.linkedin.com/in/nugrohoardisutrisno/" target="_blank"
+                            class="home-social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://dribbble.com/nugrius" target="_blank" class="home-social-icon">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                        <a href="https://github.com/ardisaurus" target="_blank" class="home-social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="home-img">
+                        <svg class="home-blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <image class="home-blob-img" x='12' y='18' xlink:href="img/perfil.png" />
+                        </svg>
+                    </div>
+                    <div class="home-data">
+                        <h1 class="home-data-title">Hi, I'am Nugroho</h1>
+                        <h3 class="home-data-subtitle">Front-End Developer</h3>
+                        <p class="home-data-description">Sing in Javascript and Dart, dancing in ReactJs and Flutter.
+                        </p>
+                    </div>
+                </div>
+                <div class="home-scroll">
+                    <a href="#about" class="home-scroll-button button-flex">
+                        <span class="home-scroll-button-name">Scroll down</span>
+                        <i class="fas fa-arrow-down home-scroll-button-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT ME -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <span class="section-subtitle"></span>
+
+            <div class="contact-container container grid">
+                <div class="contact-items">
+                    <div class="contact-information">
+                        <div>
+                            <h3 class="contact-title"><i class="far fa-envelope"></i> Email</h3>
+                            <span class="contact-subtitle">nugrohoardisutrisno@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact-information">
+                        <div>
+                            <h3 class="contact-title">
+                                <i class="fas fa-map-marker-alt"></i> Location
+                            </h3>
+                            <span class="contact-subtitle">Indonesia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="services section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            </br>
+
+            <div class="services-container container grid">
+                <!-- SERVICES 1 -->
+                <div class="services-content">
+                    <div>
+                        <i class="fas fa-desktop services-icon"></i>
+                        <h3 class="services-title">ReactJs <br> Javascript</h3>
+                    </div>
+
+                    <span class="skills-subtitle">Front-end Web Dev</span>
+                </div>
+                <!-- SERVICES 2 -->
+                <div class="services-content">
+                    <div>
+                        <i class="fas fa-mobile services-icon"></i>
+                        <h3 class="services-title">Flutter<br> Dart</h3>
+                    </div>
+
+                    <span class="skills-subtitle">Mobile App Dev</span>
+                </div>
+                <!-- SERVICES 3 -->
+                <div class="services-content">
+                    <div>
+                        <i class="fas fa-pencil-ruler services-icon"></i>
+                        <h3 class="services-title">Figma<br>
+                            <div><br></div>
+                        </h3>
+                    </div>
+
+                    <span class="skills-subtitle">UI/UX Design</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- QUALIFICATION -->
+        <section class="qualification section">
+            <h2 class="section-title">Experience</h2>
+            <span class="section-subtitle">My Experience Timeline</span>
+
+            <div class="qualification-container container">
+                <div class="qualification-sections">
+                    <!-- QUALIFICATION CONTENT 1 -->
+                    <div class="qualification-content qualification-active" data-content id="education">
+                        <!-- QUALIFICATION 1 -->
+                        <div class="qualification-data">
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title">IT Major</h3>
+                                <span class="qualification-subtitle">Politeknik Negeri Malang</span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2015 - 2018
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                        </div>
+                        <!-- QUALIFICATION 2 -->
+                        <div class="qualification-data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title">IT Support Intern</h3>
+                                <span class="qualification-subtitle">Telkom Indonesia</span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2017
+                                </div>
+                            </div>
+                        </div>
+                        <!-- QUALIFICATION 3 -->
+                        <div class="qualification-data">
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title">Software Engineer</h3>
+                                <span class="qualification-subtitle">Hash Rekayasa Teknologi</span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2019 - 2021
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <!-- <span class="qualification-line"></span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title">Portofolio</h2>
+            </br>
+
+            <div class="portfolio-container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- PORTFOLIO 1 -->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/mocobaas.png" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">Moco-Baas Cosole</h3>
+                            <p class="portfolio-description">Website adaptable to all devices, with ui components and
+                                animated interactions.</p>
+                            <a href="#" class="button button-flex button-small portfolio-button">
+                                Demo <i class="fas fa-arrow-right button-icon"></i>
+                            </a>
+                        </div>
+                        <img src="img/maimai.png" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">Mai-mai</h3>
+                            <p class="portfolio-description">Website adaptable to all devices, with ui components and
+                                animated interactions.</p>
+                            <a href="#" class="button button-flex button-small portfolio-button">
+                                Demo <i class="fas fa-arrow-right button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO 2 -->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/moonulis.png" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">Moonulis</h3>
+                            <p class="portfolio-description">Website adaptable to all devices, with ui components and
+                                animated interactions.</p>
+                            <a href="#" class="button button-flex button-small portfolio-button">
+                                Demo <i class="fas fa-arrow-right button-icon"></i>
+                            </a>
+                        </div>
+                        <img src="img/gitflow.png" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">Gitflow Action Sidebar</h3>
+                            <p class="portfolio-description">Website adaptable to all devices, with ui components and
+                                animated interactions.</p>
+                            <a href="#" class="button button-flex button-small portfolio-button">
+                                Demo <i class="fas fa-arrow-right button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Arrow -->
+                <div class="swiper-button-next">
+                    <i class="fas fa-angle-right swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="fas fa-angle-left swiper-portfolio-icon"></i>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        </br>
+        </br>
+        </br>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-bg">
+            <div class="footer-container container grid">
+                <div class="footer-texts">
+                    <h1 class="footer-title">Nugroho</h1>
+                    <span class="footer-subtitle">Frontend Developer</span>
+                </div>
+
+                <!-- <ul class="footer-links">
+                    <li>
+                        <a href="#portfolio" class="footer-link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer-link">Contact Me</a>
+                    </li>
+                </ul> -->
+                <div class="footer-socials">
+                    <a href="https://www.facebook.com/ardisaurus" target="_blank">
+                        <i class="fab fa-facebook-f footer-social"></i>
+                    </a>
+                    <!-- <a href="https://twitter.com/" target="_blank">
+                        <i class="fab fa-twitter footer-social"></i>
+                    </a> -->
+                    <a href="https://www.instagram.com/_nugrohoardi" target="_blank">
+                        <i class="fab fa-instagram footer-social"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCROLL TOP -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup-icon"></i>
+    </a>
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/027d3564f6.js" crossorigin="anonymous"></script>
+
+    <!-- SWIPER JS -->
+    <script src="js/swiper-bundle.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
