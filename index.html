@@ -29,11 +29,6 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link">
-                            <i class="fas fa-envelope nav-link-icon"></i> Contact
-                        </a>
-                    </li>
-                    <li class="nav-item">
                         <a href="#skills" class="nav-link">
                             <i class="fas fa-file-alt nav-link-icon"></i> Skills
                         </a>
@@ -41,6 +36,11 @@
                     <li class="nav-item">
                         <a href="#portfolio" class="nav-link">
                             <i class="fas fa-image nav-link-icon"></i> Portofolio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            <i class="fas fa-envelope nav-link-icon"></i> Contact
                         </a>
                     </li>
                 </ul>
@@ -58,6 +58,15 @@
     <main class="main">
         <!-- HOME -->
         <section class="home section" id="home">
+            </br>
+            <div class="overlay overlay-lg">
+                <img src="./img/shapes/square.png" class="shape square" alt="" />
+                <img src="./img/shapes/circle.png" class="shape circle" alt="" />
+                <img src="./img/shapes/half-circle.png" class="shape half-circle1" alt="" />
+                <img src="./img/shapes/x.png" class="shape xshape" alt="" />
+                <img src="./img/shapes/wave.png" class="shape wave wave1" alt="" />
+                <img src="./img/shapes/triangle.png" class="shape triangle" alt="" />
+            </div>
             <div class="home-container container grid">
                 <div class="home-content grid">
                     <div class="home-social">
@@ -94,33 +103,9 @@
             </div>
         </section>
 
-        <!-- CONTACT ME -->
-        <section class="contact section" id="contact">
-            <h2 class="section-title">Contact</h2>
-            <span class="section-subtitle"></span>
-
-            <div class="contact-container container grid">
-                <div class="contact-items">
-                    <div class="contact-information">
-                        <div>
-                            <h3 class="contact-title"><i class="far fa-envelope"></i> Email</h3>
-                            <span class="contact-subtitle">nugrohoardisutrisno@gmail.com</span>
-                        </div>
-                    </div>
-                    <div class="contact-information">
-                        <div>
-                            <h3 class="contact-title">
-                                <i class="fas fa-map-marker-alt"></i> Location
-                            </h3>
-                            <span class="contact-subtitle">Indonesia</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- SERVICES -->
         <section class="services section" id="skills">
+            </br>
             <h2 class="section-title">Skills</h2>
             </br>
 
@@ -155,6 +140,8 @@
                     <span class="skills-subtitle">UI/UX Design</span>
                 </div>
             </div>
+            <br />
+            <br />
         </section>
 
         <!-- QUALIFICATION -->
@@ -217,6 +204,7 @@
                     </div>
                 </div>
             </div>
+            </br>
         </section>
 
         <!-- PORTFOLIO -->
@@ -231,14 +219,19 @@
                         <img src="img/mocobaas.png" alt="Portfolio" class="portfolio-img">
                         <div class="portfolio-data">
                             <h3 class="portfolio-title">Moco-Baas Cosole</h3>
-                            <p class="portfolio-description">Moco-Baas Console is a Visual Studio Code extension that
-                                provide graphical user interface for Moco-Baas and help you on configuration and other
+                            <p class="portfolio-description">Moco-Baas Console is a Visual Studio Code extension
+                                that
+                                provide graphical user interface for Moco-Baas and help you on configuration and
+                                other
                                 development related needs.</p>
                             <a href="https://youtu.be/VNbSvgU_1VM"
                                 class="button button-flex button-small portfolio-button">
                                 Demo <i class="fas fa-arrow-right button-icon"></i>
                             </a>
                         </div>
+                    </div>
+                    <!-- PORTFOLIO 2 -->
+                    <div class="portfolio-content grid swiper-slide">
                         <img src="img/maimai.png" alt="Portfolio" class="portfolio-img">
                         <div class="portfolio-data">
                             <h3 class="portfolio-title">Mai-mai</h3>
@@ -246,7 +239,8 @@
                                 that
                                 help user with their bill payment such as data plan, power bill, and digital wallet.
                             </p>
-                            <a href="#" class="button button-flex button-small portfolio-button">
+                            <a href="https://youtu.be/ldwDIUaLqd0"
+                                class="button button-flex button-small portfolio-button">
                                 Demo <i class="fas fa-arrow-right button-icon"></i>
                             </a>
                         </div>
@@ -259,16 +253,21 @@
                             <p class="portfolio-description">moonulis is a platform that help books publisher to produce
                                 book collaborating with writer, editor, illustrator, and proofreader in one workspace.
                             </p>
-                            <a href="#" class="button button-flex button-small portfolio-button">
+                            <a href="https://youtu.be/Bk7iwE3YFaw"
+                                class="button button-flex button-small portfolio-button">
                                 Demo <i class="fas fa-arrow-right button-icon"></i>
                             </a>
                         </div>
+                    </div>
+                    <!-- PORTFOLIO 2 -->
+                    <div class="portfolio-content grid swiper-slide">
                         <img src="img/gitflow.png" alt="Portfolio" class="portfolio-img">
                         <div class="portfolio-data">
                             <h3 class="portfolio-title">Gitflow Action Sidebar</h3>
                             <p class="portfolio-description">Gitflow action sidebar is a Visual Studio Code's extension
                                 that provides integration and support for gitflow.</p>
-                            <a href="#" class="button button-flex button-small portfolio-button">
+                            <a href="https://youtu.be/vLT4hEPGVG4"
+                                class="button button-flex button-small portfolio-button">
                                 Demo <i class="fas fa-arrow-right button-icon"></i>
                             </a>
                         </div>
@@ -286,34 +285,24 @@
             </div>
         </section>
         </br>
-        </br>
-        </br>
     </main>
 
     <!-- FOOTER -->
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="footer-bg">
             <div class="footer-container container grid">
                 <div class="footer-texts">
-                    <h1 class="footer-title">Nugroho</h1>
-                    <span class="footer-subtitle">Frontend Developer</span>
+                    <div class="contact-information">
+                        <div>
+                            <h3 class="contact-title"><i class="far fa-envelope"></i> Email</h3>
+                            <span class="contact-subtitle">nugrohoardisutrisno@gmail.com</span>
+                        </div>
+                    </div>
                 </div>
-
-                <!-- <ul class="footer-links">
-                    <li>
-                        <a href="#portfolio" class="footer-link">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#contact" class="footer-link">Contact Me</a>
-                    </li>
-                </ul> -->
                 <div class="footer-socials">
                     <a href="https://www.facebook.com/ardisaurus" target="_blank">
                         <i class="fab fa-facebook-f footer-social"></i>
                     </a>
-                    <!-- <a href="https://twitter.com/" target="_blank">
-                        <i class="fab fa-twitter footer-social"></i>
-                    </a> -->
                     <a href="https://www.instagram.com/_nugrohoardi" target="_blank">
                         <i class="fab fa-instagram footer-social"></i>
                     </a>
